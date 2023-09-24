@@ -68,10 +68,17 @@ main > .grid > .col.col-1 > *:last-child {
     margin-bottom: 0;
 }
 main > .grid > .col.col-2 {
-    padding-top: 81%;
+    padding-top: 54%;
     padding-right: 0;
 }
 
+.avatar {
+    --w: 240px;
+    width: var(--w);
+    height: var(--w);
+    object-fit: cover;
+    border-radius: 50%;
+}
 .title {
     font-family: 'Montserrat', sans-serif;
 }
